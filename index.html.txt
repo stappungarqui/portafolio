@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final | Etier Guzmán</title>
+    <style>
+        /* Estilos visuales del sitio */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header, section, footer {
+            background: #1e293b;
+            padding: 28px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            margin-bottom: 24px;
+        }
+        h1 { font-size: 2rem; color: #ffffff; margin-bottom: 6px; }
+        h2 { font-size: 1.3rem; color: #38bdf8; margin-bottom: 14px; border-bottom: 1px solid #334155; padding-bottom: 8px; }
+        h3 { font-size: 1.15rem; color: #ffffff; margin-bottom: 8px; }
+        p { color: #94a3b8; margin-bottom: 14px; font-size: 0.98rem; }
+        
+        .badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.1);
+            color: #38bdf8;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            margin-bottom: 16px;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.92rem;
+            transition: all 0.2s ease;
+        }
+        .btn-primary {
+            background-color: #38bdf8;
+            color: #0f172a;
+        }
+        .btn-primary:hover { background-color: #7dd3fc; }
+        .btn-secondary {
+            background-color: #334155;
+            color: #ffffff;
+            border: 1px solid #475569;
+        }
+        .btn-secondary:hover { background-color: #475569; }
+        
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .tag {
+            background: #0f172a;
+            color: #cbd5e1;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            border: 1px solid #334155;
+        }
+        
+        ul { list-style: none; }
+        ul li { margin-bottom: 8px; color: #94a3b8; font-size: 0.95rem; }
+        ul li strong { color: #f1f5f9; }
+        a.link { color: #38bdf8; text-decoration: none; font-weight: 500; }
+        a.link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <!-- CABECERA Y PRESENTACIÓN -->
+    <header>
+        <span class="badge">🚀 Misión Final · Curso de Programación</span>
+        <h1>Etier Kay Guzmán Stappung</h1>
+        <p>Arquitectura & Desarrollador Web | Portafolio de Derivación a Repositorios</p>
+    </header>
+
+    <!-- SECCIÓN DEL PROYECTO FINAL DE MÓDULO -->
+    <section>
+        <h2>📌 Proyecto Final de Módulo</h2>
+        <!-- CAMBIA ESTE TÍTULO POR EL NOMBRE DE TU PROYECTO -->
+        <h3>[Escribe aquí el Nombre de tu Proyecto Final]</h3>
+        <p>
+            Este proyecto corresponde a la evaluación de cierre del módulo de programación. Aquí se presentan los resultados, la maquetación y la lógica desarrollada durante el curso.
+        </p>
+
+        <!-- TECNOLOGÍAS UTILIZADAS -->
+        <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Git & GitHub</span>
+        </div>
+
+        <!-- BOTONES DE DERIVACIÓN DIRECTA -->
+        <div class="button-group">
+            <!-- IMPORTANTE: Cambia "NOMBRE-DE-TU-REPOSITORIO" por el nombre exacto de la carpeta de tu proyecto final en GitHub -->
+            <a href="https://github.com/stappungarqui/NOMBRE-DE-TU-REPOSITORIO" target="_blank" class="btn btn-primary">
+                📂 Ver Código Fuente en GitHub ↗
+            </a>
+            <a href="https://stappungarqui.github.io/NOMBRE-DE-TU-REPOSITORIO/" target="_blank" class="btn btn-secondary">
+                🌐 Ver Sitio en Vivo (Demo) ↗
+            </a>
+        </div>
+    </section>
+
+    <!-- PERFIL Y COMPETENCIAS -->
+    <section>
+        <h2>👤 Perfil & Competencias</h2>
+        <ul>
+            <li><strong>Desarrollo Web:</strong> Estructuración HTML5, diseño responsive CSS3 y lógica interactiva con JavaScript.</li>
+            <li><strong>Metodologías & Herramientas:</strong> Control de versiones con Git, GitHub Pages, Revit (BIM) y modelado 3D.</li>
+        </ul>
+    </section>
+
+    <!-- CONTACTO -->
+    <footer>
+        <h2>📬 Contacto</h2>
+        <p><strong>Correo electrónico:</strong> <a href="mailto:stappungarqui@gmail.com" class="link">stappungarqui@gmail.com</a></p>
+        <p><strong>Perfil de GitHub:</strong> <a href="https://github.com/stappungarqui" target="_blank" class="link">github.com/stappungarqui</a></p>
+    </footer>
+
+</body>
+</html>
